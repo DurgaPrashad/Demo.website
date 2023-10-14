@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technology Training</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="#home" id="navbar__logo">pavi</a>
+    <ul class="navbar__menu">
+      <li class="navbar__item"><a href="#home" class="navbar__links">Home</a></li>
+      <li class="navbar__item"><a href="#about" class="navbar__links">About</a></li>
+      <li class="navbar__item"><a href="#services" class="navbar__links">Services</a></li>
+      <li class="navbar__item"><a href="#clients" class="navbar__links">Clients</a></li>
+      <li class="navbar__btn"><a href="#sign-up" class="button">Sign Up</a></li>
+    </ul>
+  </nav>
+  <div class="hero" id="home">
+    <h1 class="hero__heading">Join CLIS for Technology Training</h1>
+    <p class="hero__description">Live webinar classes for coding and programming</p>
+    <button class="main__btn"><a href="#">Explore</a></button>
+  </div>
+  <div class="main" id="about">
+    <h1>What Do We Offer?</h1>
+    <h2>Technology Training at CLIS</h2>
+    <p>Join our live webinar classes and learn coding and programming</p>
+    <button class="main__btn"><a href="#">Enroll Now</a></button>
+  </div>
+  <div class="services" id="services">
+    <h1>Our Services</h1>
+    <div class="services__wrapper">
+      <div class="services__card">
+        <h2>Live Webinar Classes</h2>
+        <button>Enroll Now</button>
+      </div>
+      <div class="services__card">
+        <h2>Expert Instructors</h2>
+        <button>Enroll Now</button>
+      </div>
+      <div class="services__card">
+        <h2>Hands-on Projects</h2>
+        <button>Enroll Now</button>
+      </div>
+      <div class="services__card">
+        <h2>Career Guidance</h2>
+        <button>Enroll Now</button>
+      </div>
+    </div>
+  </div>
+  <div class="main" id="clients">
+    <h1>Our Clients</h1>
+    <h2>Join Our Community of Successful Learners</h2>
+    <p>See what our satisfied clients have to say about our training programs</p>
+    <button class="main__btn"><a href="#">View Profiles</a></button>
+  </div>
+  <div class="footer__container">
+    <div class="footer__links">
+      <div class="footer__link--wrapper">
+        <div class="footer__link--items">
+          <h2>About Us</h2>
+          <a href="/about">About CLIS</a>
+          <a href="/">Testimonials</a>
+          <a href="/">Careers</a>
+          <a href="/">Terms of Service</a>
+        </div>
+        <div class="footer__link--items">
+          <h2>Contact Us</h2>
+          <a href="/">Contact</a>
+          <a href="/">Support</a>
+          <a href="/">FAQs</a>
+        </div>
+      </div>
+      <div class="footer__link--wrapper">
+        <div class="footer__link--items">
+          <h2>Our Programs</h2>
+          <a href="/">View All Courses</a>
+          <a href="/">Coding Bootcamp</a>
+          <a href="/">Web Development</a>
+          <a href="/">Data Science</a>
+        </div>
+        <div class="footer__link--items">
+          <h2>Follow Us</h2>
+          <a href="/">Instagram</a>
+          <a href="/">Facebook</a>
+          <a href="/">YouTube</a>
+          <a href="/">Twitter</a>
+        </div>
+      </div>
+    </div>
+    <section class="social__media">
+      <div class="social__media--wrap">
+        <div class="footer__logo">
+          <a href="/" id="footer__logo">CLIS</a>
+        </div>
+        <p class="website__rights">© CLIS 2023. All rights reserved</p>
+        <div class="social__icons">
+          <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="/" class="social__icon--link"><i class="fab fa-instagram"></i></a>
+          <a href="/" class="social__icon--link"><i class="fab fa-youtube"></i></a>
+          <a href="/" class="social__icon--link"><i class="fab fa-linkedin"></i></a>
+          <a href="/" class="social__icon--link"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
+
+<style>
+  /* Your CSS styles here */
+/* Reset some default styles */
+body, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  background: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: #d1a2a2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+#navbar__logo {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.navbar__menu {
+  display: flex;
+}
+
+.navbar__item {
+  margin-right: 20px;
+}
+
+.navbar__links {
+  text-decoration: none;
+  color: #000;
+  font-size: 1rem;
+}
+
+.hero {
+  background: #333;
+  text-align: center;
+  color: #fff;
+  padding: 100px 0;
+}
+
+.hero__heading {
+  font-size: 2rem;
+}
+
+.hero__description {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.main__btn a, .navbar__btn a {
+  text-decoration: none;
+  background: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.main__btn a:hover, .navbar__btn a:hover {
+  background: #555;
+}
+
+.main {
+  background: #fff;
+  padding: 40px 0;
+  text-align: center;
+  color: #000;
+}
+
+.services h1, .main h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.services__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.services__card, .main__btn {
+  text-align: center;
+  border: 1px solid #000;
+  padding: 10px 0;
+}
+
+.services__card h2 {
+  font-size: 1.5rem;
+}
+
+.clients {
+  background: #f0f0f0;
+  padding: 40px 0;
+  text-align: center;
+  color: #000;
+}
+
+.footer__container {
+  background: #333;
+  padding: 40px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer__link--wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer__link--items h2 {
+  font-size: 1.2rem;
+}
+
+.footer__link--items a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.social__media--wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#footer__logo {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.website__rights {
+  font-size: 1rem;
+}
+
+.social__icon--link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+</style>
